@@ -1,0 +1,33 @@
+{
+  "title": "Kubernetes Engineer Assessment",
+  "description": "Fix and deploy a broken Java microservice with Docker, Kubernetes, and troubleshooting",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Fix the Broken Dockerfile",
+        "text": "step1.md"
+      },
+      {
+        "title": "Deploy to Kubernetes",
+        "text": "step2.md"
+      },
+      {
+        "title": "Troubleshoot Pod Issues",
+        "text": "step3.md"
+      },
+      {
+        "title": "Configure and Scale",
+        "text": "step4.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

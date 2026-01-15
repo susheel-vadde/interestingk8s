@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: java-app-config
+data:
+  app.name: "MyJavaApp"
+  app.version: "1.0"
+  log.level: "INFO"
